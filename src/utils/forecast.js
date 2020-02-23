@@ -5,7 +5,7 @@ dotenv.config();
 const forecast = (latitude, longitude, callback) => {
   const url =
     "https://api.darksky.net/forecast/" +
-    process.env.FORECAST_TOKEN +
+    "0738f0c575774572d8d7f638fd2819ef" +
     "/" +
     latitude +
     "," +

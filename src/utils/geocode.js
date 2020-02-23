@@ -7,7 +7,7 @@ const geocode = async (address, callback) => {
     "https://api.mapbox.com/geocoding/v5/mapbox.places/" +
     address +
     ".json?access_token=" +
-    process.env.GEOCODE_TOKEN +
+    "pk.eyJ1IjoibGFzemxvYnVqYWsiLCJhIjoiY2s2eGx5MW42MGZkdTNsczZrdzZ3MWxpbiJ9.rKWgtLJPw57DH1PFwry-Rg" +
     "&limit=1";
 
   try {
